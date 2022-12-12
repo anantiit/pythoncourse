@@ -1,0 +1,12 @@
+from math import *
+print(3+5*3)
+print(10/3)
+print(10%2)
+print(100//33)
+print(2.5*2)
+print(pow(3,2))
+print(abs(-3))
+print(round(3.7),round(3.2))
+print(ceil(3.2))
+print(floor(3.7))
+print(sqrt(36))
