@@ -33,7 +33,19 @@ def reorderArray1(A,index,n):
           print(index)
 
 
+friends=["naidu","laxman","janakiram","sagar"]
+more=["nagi"]
+friends.extend(more)
+friends.append("2")
+friends.insert(1,"harish")
+friends.remove("sagar")
+print(friends.index("naidu"))
+for val in friends:
+    print(val)
+#print(friends.index("sagar"))
 
+list=[3,4,1,3,5]
+print(list)
 A=[4,4,3,2,7,1,9]
 index=[3,1,0,2,6,5,4]
 reorderArray1(A,index,7)
